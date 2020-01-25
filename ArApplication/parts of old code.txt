@@ -1,0 +1,41 @@
+      
+
+         //create renderer & collider for the the panel
+            rendererComponent = GetComponentsInChildren<Renderer>(true);
+            colliderComponent = GetComponentsInChildren<Collider>(true);    
+
+	    Renderer[] rendererComponent = GetComponentsInChildren<Renderer>(true);
+            Collider[] colliderComponent = GetComponentsInChildren<Collider>(true);
+
+
+
+	//show text and panel
+                            /* foreach (Renderer component in rendererComponent)
+                              {
+                                  component.enabled = true;
+                              }
+
+                              foreach (Collider component in colliderComponent)
+                              {
+                                  component.enabled = true;
+                              }*/
+
+
+
+
+
+      // hide text and panel
+                            /* foreach (Renderer component in rendererComponent)
+                              {
+                                  component.enabled = false;
+                              }
+
+                              foreach (Collider component in colliderComponent)
+                              {
+                                  component.enabled = false;
+                              }
+                              */
+
+
+
+
